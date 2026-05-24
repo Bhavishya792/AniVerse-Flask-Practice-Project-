@@ -1,3 +1,3 @@
-# AniVerse-Flask-Project-Project-
+# AniVerse-Flask-Practice-Project-
 
 Currently in works
