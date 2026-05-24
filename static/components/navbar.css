@@ -1,12 +1,7 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 nav {
     background-color: rgb(19 19 19);
     display: flex;
+    position: sticky;
     justify-content: space-between;
     align-items: center;
     padding: 0.9rem 1.5rem;
@@ -44,6 +39,7 @@ nav {
 
 .buttons li a {
     font-size: 0.95rem;
+    color: rgb(255 180 170);
 }
 
 .buttons li a:hover {
@@ -53,10 +49,6 @@ nav {
 
 }
 
-a {
-    text-decoration: none;
-    color: rgb(255 180 170);
-}
 
 .nav-icons a {
     color: rgb(255 180 170);

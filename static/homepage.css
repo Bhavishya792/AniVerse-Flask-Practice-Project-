@@ -1,0 +1,70 @@
+.hero {
+    height: 80vh;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9) 0%,
+            rgba(0, 0, 0, 0.8) 40%,
+            rgba(0, 0, 0, 0.65) 70%,
+            rgba(0, 0, 0, 0.35) 100%),
+        url(./images/hero.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.hero-content {
+    max-width: 500px;
+    color: white;
+    padding: 25vh 0 0 2vw;
+}
+
+.badge {
+    display: inline-flex;
+    align-items: center;
+    border: solid rgba(255, 255, 255, 0.1) 1px;
+    border-radius: 9999px;
+    background-color: #2F2F2F;
+    width: max-content;
+    padding: 1px 12px 1px 0px;
+    backdrop-filter: blur(4px);
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 2.25em;
+    margin: 12px 0px;
+    color: rgba(230, 230, 230, 0.95);
+}
+
+.hero-des {
+    color: rgb(255 180 170);
+    font-size: 0.8rem;
+    opacity: 0.8;
+    max-width: 450px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 1.8em;
+    padding: 20px 0 0 10px;
+}
+
+.hero-buttons a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 0.7rem;
+    color: whitesmoke
+}
+
+#watch-button {
+    background-color: #E50914;
+    padding: 10px 3em;
+    border-radius: 5px;
+}
+
+#mylist-button {
+    border: 1px solid rgba(120, 120, 120, 0.8);
+    padding: 10px 3em;
+    border-radius: 5px;
+}
